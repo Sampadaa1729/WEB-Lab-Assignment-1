@@ -1,0 +1,63 @@
+/* General Form Container Styles */
+.form-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #005cbf;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+/* Output XML Styling */
+pre#output {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

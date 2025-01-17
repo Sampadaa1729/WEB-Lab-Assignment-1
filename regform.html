@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Register for Innovision 2025</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="event">Select Event:</label>
+            <select id="event" name="event" required>
+                <option value="Technical Workshops">Technical Workshops</option>
+                <option value="Cultural Performances">Cultural Performances</option>
+                <option value="Sports Competitions">Sports Competitions</option>
+                <option value="Gaming Tournaments">Gaming Tournaments</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+    <script src="form-script.js"></script>
+</body>
+</html>
